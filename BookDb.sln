@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempUI", "TempUI\TempUI.csproj", "{94EE3A69-7B3F-49FF-8200-1CE0E568F88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookDb.Data", "BookDb.Data\BookDb.Data.csproj", "{E6C2C03A-4DDA-435D-88D6-67A843415C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94EE3A69-7B3F-49FF-8200-1CE0E568F88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EE3A69-7B3F-49FF-8200-1CE0E568F88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EE3A69-7B3F-49FF-8200-1CE0E568F88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EE3A69-7B3F-49FF-8200-1CE0E568F88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C2C03A-4DDA-435D-88D6-67A843415C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C2C03A-4DDA-435D-88D6-67A843415C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C2C03A-4DDA-435D-88D6-67A843415C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C2C03A-4DDA-435D-88D6-67A843415C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
